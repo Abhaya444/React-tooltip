@@ -1,0 +1,24 @@
+
+/* styles for divs */
+.divs{
+    
+    padding: 20vh;
+    justify-content: center;
+    text-align: center; /* Center the select element within the container*/
+}
+.select{
+    background-color: #4e9cef;
+    color: #fff;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.select:hover{
+    background-color: #1a80ed;
+}
