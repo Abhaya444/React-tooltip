@@ -16,12 +16,12 @@ export default function Hover() {
     setIsHovered(true);
     if(pos==="Top"){
       setTopV(-100);
-      setLeftV(0);
+      setLeftV(-5);
       setTran("translateY(-50%)");
       setWidthV("20vw")
     }else if(pos==="Bottom"){
       setTopV(100);
-      setLeftV(0);
+      setLeftV(-5);
       setTran("translateY(50%)");
       setWidthV("20px")
     }else if(pos==="Left"){
